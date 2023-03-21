@@ -1,0 +1,10 @@
+plugins{
+    id 'application'
+}
+repositories{
+    mavenCentral()
+}
+
+application{
+    mainCass = 'aula1.App'
+}
