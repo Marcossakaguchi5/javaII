@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin:0px;
+    background: linear-gradient( to right, #0f0c29, #302b63, #24243e);
+    font-family:'montserrat';
+}
+/* index */
+.conteudo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+   gap:900px;
+
+}
+.home{
+    font-size: 30px;
+    
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color:#eceaea;
+
+   
+}
+.titulo{
+    margin:0px !important;
+    color:#FFFFFF;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:40px
+  
+}
+.sub-titulo{
+    color:#FFFFFF;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:40px
+  
+}
+img{    
+    width: 20%;
+    height:20%;
+    margin-bottom: 40px;
+}
+
+.divisao{
+    display:flex;
+    justify-content: center;   
+    align-items: center;
+    height: 100%;
+    gap:100px;
+    cursor: pointer;
+
+    
+}
+.sub{
+    text-decoration: none;
+    font-size: 50px;
+    color: #F8F8FF;
+  
+}
+/* soma */
+.soma{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( to right,#0f0c29, #2c285c);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+input {
+    justify-content: center;
+    margin-left: 60px;
+    color: #110505;
+    font-size: 28px;
+    width: 100px;
+    gap:15px;
+    height: 5px;
+    padding: 40px ;
+    background-color: #eceaea;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
+button{
+
+    width: 400px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 28px;
+    background-color: #39457a;
+    margin-left:75px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background:#4E34C5;
+}
+
+
+a:hover{
+    color: #4E34C5;
+}
+/* tabuada */
+.tabuadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ul{
+list-style: none;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    color: #eceaea;
+   
+}
